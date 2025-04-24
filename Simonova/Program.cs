@@ -10,9 +10,7 @@ namespace Simonova
     {
         static void Main(string[] args)
         {
-            Console.Write("Введите значения парамтера х = ");
-            string s = Console.ReadLine();
-            double x = Convert.ToDouble(s);
+            double F = 2 * Math.Cos(x);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Simonova
     {
         static void Main(string[] args)
         {
-            double F = 2 * Math.Cos(x);
+            Console.WriteLine($"Для значения х = {x}, F = {F}.");
         }
     }
 }
